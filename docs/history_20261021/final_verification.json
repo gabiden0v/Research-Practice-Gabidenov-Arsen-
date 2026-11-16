@@ -1,0 +1,170 @@
+{
+  "status": "passed",
+  "date": "2026-10-21",
+  "checks": [
+    {
+      "check": "original sources unchanged",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all portable fixed-choice annual and quarterly refits",
+      "passed": true,
+      "details": [
+        {
+          "comparison": "annual metrics",
+          "passed": true
+        },
+        {
+          "comparison": "annual_extensions metrics",
+          "passed": true
+        },
+        {
+          "comparison": "quarterly metrics",
+          "passed": true
+        },
+        {
+          "comparison": "annual original and all exploratory family fits",
+          "max_delta": 1.1102230246251565e-16
+        },
+        {
+          "comparison": "main_lag2 fits",
+          "max_delta": 1.1709383462843448e-16
+        },
+        {
+          "comparison": "reported_quarter_lag2 fits",
+          "max_delta": 9.71445146547012e-17
+        },
+        {
+          "comparison": "conditional_lag1 fits",
+          "max_delta": 9.80118763926896e-17
+        }
+      ]
+    },
+    {
+      "check": "main_ifrs final nested rerun matches frozen predictions",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "broad_scope_sensitivity final nested rerun matches frozen predictions",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "no_parent_overlap final nested rerun matches frozen predictions",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "lag2_delay_sensitivity final nested rerun matches frozen predictions",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "workbook has six intended sheets",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "no Excel error cells",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "196 annual cached ROA values match frozen inputs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "72 quarterly cached ROA values match frozen inputs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "72 quarterly profit formulas match frozen inputs",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "ROA is an Excel formula, not a hard-coded result",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Article_AITU_Gabidenov.docx page count",
+      "passed": true,
+      "details": 10
+    },
+    {
+      "check": "Article_AITU_Gabidenov.docx has five tables",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Article_AITU_Gabidenov.docx has 20 references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Article_AITU_Gabidenov.docx has declarations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Article_AITU_Gabidenov.docx no unresolved citation markers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Manuscript_blinded.docx page count",
+      "passed": true,
+      "details": 10
+    },
+    {
+      "check": "Manuscript_blinded.docx has five tables",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Manuscript_blinded.docx has 20 references",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Manuscript_blinded.docx has declarations",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "Manuscript_blinded.docx no unresolved citation markers",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "blinded manuscript contains no supplied author identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "blinded core author metadata empty",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "six new bootstrap bands reproducible",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "three quarterly bootstrap bands reproducible",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "limitations": [
+    "Not an external source audit; some source paths are local and original PDFs are not redistributed.",
+    "One earlier nested lag-2 rerun differed; isolated and subsequent full reruns matched. Cause unestablished; see README.",
+    "Author ORCID, exact AI version, human approval and editorial AI-policy assessment remain pending."
+  ]
+}

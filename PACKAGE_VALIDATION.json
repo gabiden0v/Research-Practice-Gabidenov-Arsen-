@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-16",
+  "checked_at_utc": "2026-11-16T08:36:33.379191+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "all copied source files unchanged",
+      "passed": true,
+      "details": 57
+    },
+    {
+      "check": "ten weekly topic folders",
+      "passed": true
+    },
+    {
+      "check": "relative Markdown links resolve",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "notebook overview cells execute; training off",
+      "passed": true,
+      "details": 6
+    },
+    {
+      "check": "no personal absolute machine paths in text files",
+      "passed": true,
+      "details": []
+    },
+    {
+      "check": "no PDFs, model binaries, environments or assignments included",
+      "passed": true
+    },
+    {
+      "check": "Python files parse",
+      "passed": true
+    },
+    {
+      "check": "dataset structure and feature arithmetic",
+      "passed": true,
+      "details": 23
+    },
+    {
+      "check": "metric reproduction and fixed-choice refits complete",
+      "passed": true,
+      "details": [
+        {
+          "comparison": "annual metrics",
+          "passed": true
+        },
+        {
+          "comparison": "annual_extensions metrics",
+          "passed": true
+        },
+        {
+          "comparison": "quarterly metrics",
+          "passed": true
+        },
+        {
+          "comparison": "annual original and all exploratory family fits",
+          "max_delta": 1.3877787807814457e-16
+        },
+        {
+          "comparison": "main_lag2 fits",
+          "max_delta": 1.1709383462843448e-16
+        },
+        {
+          "comparison": "reported_quarter_lag2 fits",
+          "max_delta": 9.71445146547012e-17
+        },
+        {
+          "comparison": "conditional_lag1 fits",
+          "max_delta": 9.80118763926896e-17
+        }
+      ]
+    },
+    {
+      "check": "bootstrap results exist",
+      "passed": true
+    }
+  ],
+  "nested_selection_rerun_this_packaging": false,
+  "external_urls_rechecked_this_packaging": false,
+  "original_pdf_extraction_reaudited_this_packaging": false,
+  "note": "Repackaging verified frozen research; no claim of new untouched-test evaluation."
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "Original annual main_ifrs, 2018-2024; not a new model fit",
+  "cases": 88,
+  "gb_better_cases": 38,
+  "gb_top10_absolute_error_share": 0.3887886576796416,
+  "gb_max_absolute_error_pp": 27.21560187739001
+}

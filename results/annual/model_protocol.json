@@ -1,0 +1,101 @@
+{
+  "target": "ROA = total group/company after-tax profit / year-end total assets; ratio units",
+  "main_scenario": "main_ifrs",
+  "test_years": [
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "exploratory_year": 2025,
+  "task": "One-step reporting-year ROA prediction conditional on previous annual statements, retrospective source-selected vintages",
+  "features_internal": [
+    "roa_lag",
+    "equity_lag",
+    "asset_growth_lag",
+    "revenue_growth_lag"
+  ],
+  "features_macro": [
+    "gdp_growth",
+    "inflation",
+    "fx_change",
+    "brent_change"
+  ],
+  "categorical_features": [
+    "company",
+    "sector"
+  ],
+  "primary_metric": "MAE in percentage points; RMSE and pooled R2 secondary",
+  "validation": "Expanding outer calendar-year folds; hyperparameters selected by pooled MAE in last 3 admissible past calendar-year inner folds; preprocessing fit separately inside every fold.",
+  "grids": {
+    "Ridge": [
+      1.0,
+      10.0,
+      100.0
+    ],
+    "RandomForest": [
+      2,
+      4
+    ],
+    "GradientBoosting": [
+      1,
+      2
+    ],
+    "CatBoost": [
+      2,
+      4
+    ]
+  },
+  "implementations": "scikit-learn and CatBoost official libraries, not previous custom NumPy implementations",
+  "fixed_parameters": {
+    "RF": {
+      "n_estimators": 150,
+      "min_samples_leaf": 5,
+      "max_features": 0.8
+    },
+    "GB": {
+      "n_estimators": 150,
+      "learning_rate": 0.03,
+      "min_samples_leaf": 5
+    },
+    "CatBoost": {
+      "iterations": 200,
+      "learning_rate": 0.03,
+      "l2_leaf_reg": 5
+    },
+    "random_seed": 20261016
+  },
+  "early_stopping": "None; neither outer test labels nor 2025 labels used for tuning",
+  "macro_ablation": "Identical sample and folds; independently tuned family with and without four macro features",
+  "missing_values": "Target and lagged ROA required; other numeric gaps median-imputed with missingness indicators, fitted only on training data. Source gaps never overwritten.",
+  "scenarios": {
+    "main_ifrs": "Excludes TCO, incomplete Ozen 2012, uncertain Ozen scope through 2022, standalone MMG 2025. Retains economic shocks and discontinued profits in total-profit ROA.",
+    "broad_scope_sensitivity": "Adds Ozen full years with unresolved scope; NOT promoted to primary.",
+    "no_parent_overlap": "Removes KMG and Kazakhtelecom parents from training/test; related subsidiary dependencies may remain.",
+    "lag2_delay_sensitivity": "Company and macro features dated y-2, training outcomes no later than y-2; conservative delay check, not historical vintage reconstruction."
+  },
+  "limitations": [
+    "Sources include retrospective restatements and 2026 macro revisions; actual publication availability remains unverified.",
+    "2025 was already inspected in earlier work, has at most four comparable companies, and is NOT an untouched holdout.",
+    "Only seven outer test years, few related company groups; rankings and cluster bootstrap intervals are exploratory.",
+    "Headline differences from previous results mix protocol, sample and implementation changes; not a causal effect of cleaning.",
+    "Total-profit ROA deliberately includes one-off/discontinued results; not a normalised operating-return forecast.",
+    "No claims of universal best model or neural-network superiority; no prediction intervals are calibrated in this run."
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "scikit-learn": "1.9.1",
+    "catboost": "1.2.10",
+    "scipy": "1.18.1"
+  },
+  "input_hashes": {
+    "company_financials.csv": "fa3ec5eaa7de46a6fc74c20ba8daa5872a27678ba8f8313f074a3c506b948b1d",
+    "macro_by_year.csv": "4d0bced82fcd0a1a4b50b0db426dd5c94c86946bedc003a849bbeed3d754daeb",
+    "source_registry.json": "2aea2e2865c3fc24adfa56c6b31d2395e56e9b1d46b0551b9ef7db9e7259025e"
+  }
+}

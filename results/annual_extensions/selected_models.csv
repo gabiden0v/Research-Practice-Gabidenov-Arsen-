@@ -1,0 +1,183 @@
+﻿year,model,chosen_model,parameter,inner_MAE_pp
+2018,Ridge internal,Ridge internal,10.0,5.81983438513838
+2018,Ridge + macro,Ridge + macro,100.0,6.1782193640851
+2018,RandomForest internal,RandomForest internal,2.0,5.097979753594773
+2018,RandomForest + macro,RandomForest + macro,4.0,4.903540511311628
+2018,GradientBoosting internal,GradientBoosting internal,1.0,4.965535654320074
+2018,GradientBoosting + macro,GradientBoosting + macro,1.0,4.869248840630298
+2018,CatBoost internal,CatBoost internal,2.0,4.656339696120205
+2018,CatBoost + macro,CatBoost + macro,2.0,4.458379955949812
+2018,Delta | Ridge internal,Delta | Ridge internal,100.0,6.150745961165482
+2018,Delta | Ridge + macro,Delta | Ridge + macro,100.0,6.3143224811276735
+2018,Delta | RandomForest internal,Delta | RandomForest internal,4.0,6.058021518958021
+2018,Delta | RandomForest + macro,Delta | RandomForest + macro,2.0,6.170764516074293
+2018,Delta | GradientBoosting internal,Delta | GradientBoosting internal,1.0,6.38465922110159
+2018,Delta | GradientBoosting + macro,Delta | GradientBoosting + macro,1.0,6.311093831847291
+2018,Delta | CatBoost internal,Delta | CatBoost internal,2.0,6.319816227417284
+2018,Delta | CatBoost + macro,Delta | CatBoost + macro,2.0,6.233189190281168
+2018,Loss | GradientBoosting absolute_error internal,Loss | GradientBoosting absolute_error internal,2.0,4.4457789667453
+2018,Loss | GradientBoosting absolute_error + macro,Loss | GradientBoosting absolute_error + macro,2.0,4.4096880728508765
+2018,Loss | GradientBoosting huber internal,Loss | GradientBoosting huber internal,1.0,4.597083562544621
+2018,Loss | GradientBoosting huber + macro,Loss | GradientBoosting huber + macro,2.0,4.410762665499208
+2018,Loss | CatBoost MAE internal,Loss | CatBoost MAE internal,2.0,4.782716417934932
+2018,Loss | CatBoost MAE + macro,Loss | CatBoost MAE + macro,2.0,4.431448193510848
+2018,P0 | ML selector,CatBoost + macro,2.0,4.458379955949812
+2018,E1 | ML + naive selector,CatBoost + macro,2.0,4.458379955949812
+2018,E2 | delta selector,Delta | RandomForest internal,4.0,6.058021518958021
+2018,E3 | loss selector,Loss | GradientBoosting absolute_error + macro,2.0,4.4096880728508765
+2019,Ridge internal,Ridge internal,10.0,6.081721368453067
+2019,Ridge + macro,Ridge + macro,10.0,6.490602712616404
+2019,RandomForest internal,RandomForest internal,2.0,5.2622826420944815
+2019,RandomForest + macro,RandomForest + macro,2.0,5.155554660974394
+2019,GradientBoosting internal,GradientBoosting internal,1.0,5.322157343383652
+2019,GradientBoosting + macro,GradientBoosting + macro,1.0,5.262263294904136
+2019,CatBoost internal,CatBoost internal,2.0,4.854717476719407
+2019,CatBoost + macro,CatBoost + macro,2.0,4.797821435699085
+2019,Delta | Ridge internal,Delta | Ridge internal,100.0,5.7481965207723595
+2019,Delta | Ridge + macro,Delta | Ridge + macro,100.0,5.876929781772265
+2019,Delta | RandomForest internal,Delta | RandomForest internal,4.0,5.841325233319881
+2019,Delta | RandomForest + macro,Delta | RandomForest + macro,4.0,5.885037234076947
+2019,Delta | GradientBoosting internal,Delta | GradientBoosting internal,1.0,6.255545641910983
+2019,Delta | GradientBoosting + macro,Delta | GradientBoosting + macro,2.0,6.218670912756157
+2019,Delta | CatBoost internal,Delta | CatBoost internal,4.0,5.588203045574836
+2019,Delta | CatBoost + macro,Delta | CatBoost + macro,4.0,5.644930670548302
+2019,Loss | GradientBoosting absolute_error internal,Loss | GradientBoosting absolute_error internal,2.0,4.737377556606815
+2019,Loss | GradientBoosting absolute_error + macro,Loss | GradientBoosting absolute_error + macro,2.0,4.773709283044788
+2019,Loss | GradientBoosting huber internal,Loss | GradientBoosting huber internal,1.0,4.839875319504971
+2019,Loss | GradientBoosting huber + macro,Loss | GradientBoosting huber + macro,2.0,4.677667762973738
+2019,Loss | CatBoost MAE internal,Loss | CatBoost MAE internal,2.0,4.925282068456433
+2019,Loss | CatBoost MAE + macro,Loss | CatBoost MAE + macro,4.0,4.681621506683774
+2019,P0 | ML selector,CatBoost + macro,2.0,4.797821435699085
+2019,E1 | ML + naive selector,CatBoost + macro,2.0,4.797821435699085
+2019,E2 | delta selector,Delta | CatBoost internal,4.0,5.588203045574836
+2019,E3 | loss selector,Loss | GradientBoosting huber + macro,2.0,4.677667762973738
+2020,Ridge internal,Ridge internal,10.0,4.986017818925609
+2020,Ridge + macro,Ridge + macro,10.0,5.247024645549602
+2020,RandomForest internal,RandomForest internal,4.0,4.453262987565983
+2020,RandomForest + macro,RandomForest + macro,4.0,4.444955098799137
+2020,GradientBoosting internal,GradientBoosting internal,1.0,4.173718852312739
+2020,GradientBoosting + macro,GradientBoosting + macro,1.0,4.128747910595774
+2020,CatBoost internal,CatBoost internal,2.0,3.9031949888258892
+2020,CatBoost + macro,CatBoost + macro,2.0,3.8092028538437
+2020,Delta | Ridge internal,Delta | Ridge internal,100.0,4.291473068119087
+2020,Delta | Ridge + macro,Delta | Ridge + macro,100.0,4.340151207618211
+2020,Delta | RandomForest internal,Delta | RandomForest internal,2.0,4.684950483971784
+2020,Delta | RandomForest + macro,Delta | RandomForest + macro,2.0,4.556852218158379
+2020,Delta | GradientBoosting internal,Delta | GradientBoosting internal,1.0,5.231878873890901
+2020,Delta | GradientBoosting + macro,Delta | GradientBoosting + macro,1.0,5.188194131774659
+2020,Delta | CatBoost internal,Delta | CatBoost internal,4.0,4.646077717954775
+2020,Delta | CatBoost + macro,Delta | CatBoost + macro,4.0,4.451481921535964
+2020,Loss | GradientBoosting absolute_error internal,Loss | GradientBoosting absolute_error internal,1.0,4.232368670189747
+2020,Loss | GradientBoosting absolute_error + macro,Loss | GradientBoosting absolute_error + macro,2.0,4.245905703978421
+2020,Loss | GradientBoosting huber internal,Loss | GradientBoosting huber internal,1.0,3.8603596780597975
+2020,Loss | GradientBoosting huber + macro,Loss | GradientBoosting huber + macro,1.0,3.952133256551396
+2020,Loss | CatBoost MAE internal,Loss | CatBoost MAE internal,2.0,3.880679149027537
+2020,Loss | CatBoost MAE + macro,Loss | CatBoost MAE + macro,4.0,3.638138501810636
+2020,P0 | ML selector,CatBoost + macro,2.0,3.8092028538437
+2020,E1 | ML + naive selector,CatBoost + macro,2.0,3.8092028538437
+2020,E2 | delta selector,Delta | Ridge internal,100.0,4.291473068119087
+2020,E3 | loss selector,Loss | CatBoost MAE + macro,4.0,3.638138501810636
+2021,Ridge internal,Ridge internal,10.0,4.658980630318755
+2021,Ridge + macro,Ridge + macro,10.0,4.989325021040026
+2021,RandomForest internal,RandomForest internal,4.0,4.943707195434122
+2021,RandomForest + macro,RandomForest + macro,4.0,5.194668176269917
+2021,GradientBoosting internal,GradientBoosting internal,1.0,4.889539831631878
+2021,GradientBoosting + macro,GradientBoosting + macro,1.0,4.800917385298105
+2021,CatBoost internal,CatBoost internal,4.0,4.258122492854869
+2021,CatBoost + macro,CatBoost + macro,4.0,4.264868731414321
+2021,Delta | Ridge internal,Delta | Ridge internal,100.0,4.363984684198492
+2021,Delta | Ridge + macro,Delta | Ridge + macro,100.0,4.364513089359161
+2021,Delta | RandomForest internal,Delta | RandomForest internal,2.0,4.65660853739777
+2021,Delta | RandomForest + macro,Delta | RandomForest + macro,2.0,4.517125580146037
+2021,Delta | GradientBoosting internal,Delta | GradientBoosting internal,2.0,4.986010224466147
+2021,Delta | GradientBoosting + macro,Delta | GradientBoosting + macro,2.0,4.768499709338269
+2021,Delta | CatBoost internal,Delta | CatBoost internal,4.0,4.588943240180486
+2021,Delta | CatBoost + macro,Delta | CatBoost + macro,4.0,4.398809295812328
+2021,Loss | GradientBoosting absolute_error internal,Loss | GradientBoosting absolute_error internal,1.0,4.9466150370877235
+2021,Loss | GradientBoosting absolute_error + macro,Loss | GradientBoosting absolute_error + macro,2.0,4.998286166379442
+2021,Loss | GradientBoosting huber internal,Loss | GradientBoosting huber internal,1.0,4.647588819621575
+2021,Loss | GradientBoosting huber + macro,Loss | GradientBoosting huber + macro,2.0,4.647655029902066
+2021,Loss | CatBoost MAE internal,Loss | CatBoost MAE internal,4.0,4.051650940588056
+2021,Loss | CatBoost MAE + macro,Loss | CatBoost MAE + macro,4.0,3.9151517920973204
+2021,P0 | ML selector,CatBoost internal,4.0,4.258122492854869
+2021,E1 | ML + naive selector,CatBoost internal,4.0,4.258122492854869
+2021,E2 | delta selector,Delta | Ridge internal,100.0,4.363984684198492
+2021,E3 | loss selector,Loss | CatBoost MAE + macro,4.0,3.9151517920973204
+2022,Ridge internal,Ridge internal,1.0,4.536434055592666
+2022,Ridge + macro,Ridge + macro,10.0,5.4881582077992235
+2022,RandomForest internal,RandomForest internal,4.0,4.792887086149551
+2022,RandomForest + macro,RandomForest + macro,4.0,4.962378586853214
+2022,GradientBoosting internal,GradientBoosting internal,1.0,4.741707837596672
+2022,GradientBoosting + macro,GradientBoosting + macro,1.0,4.619458934558763
+2022,CatBoost internal,CatBoost internal,4.0,4.033505635187455
+2022,CatBoost + macro,CatBoost + macro,4.0,4.052243721891788
+2022,Delta | Ridge internal,Delta | Ridge internal,1.0,4.550883890002916
+2022,Delta | Ridge + macro,Delta | Ridge + macro,100.0,5.12059132539473
+2022,Delta | RandomForest internal,Delta | RandomForest internal,2.0,4.896729788170648
+2022,Delta | RandomForest + macro,Delta | RandomForest + macro,2.0,4.72022655433678
+2022,Delta | GradientBoosting internal,Delta | GradientBoosting internal,2.0,5.146910967529585
+2022,Delta | GradientBoosting + macro,Delta | GradientBoosting + macro,2.0,4.76331947495628
+2022,Delta | CatBoost internal,Delta | CatBoost internal,2.0,4.9104094043420705
+2022,Delta | CatBoost + macro,Delta | CatBoost + macro,4.0,4.848091763329556
+2022,Loss | GradientBoosting absolute_error internal,Loss | GradientBoosting absolute_error internal,1.0,4.443303381378109
+2022,Loss | GradientBoosting absolute_error + macro,Loss | GradientBoosting absolute_error + macro,1.0,4.539411850521979
+2022,Loss | GradientBoosting huber internal,Loss | GradientBoosting huber internal,1.0,4.330425329229613
+2022,Loss | GradientBoosting huber + macro,Loss | GradientBoosting huber + macro,1.0,4.320149377028367
+2022,Loss | CatBoost MAE internal,Loss | CatBoost MAE internal,4.0,4.101634766060127
+2022,Loss | CatBoost MAE + macro,Loss | CatBoost MAE + macro,4.0,4.217181600844203
+2022,P0 | ML selector,CatBoost internal,4.0,4.033505635187455
+2022,E1 | ML + naive selector,CatBoost internal,4.0,4.033505635187455
+2022,E2 | delta selector,Delta | Ridge internal,1.0,4.550883890002916
+2022,E3 | loss selector,CatBoost internal,4.0,4.033505635187455
+2023,Ridge internal,Ridge internal,1.0,4.717167998712294
+2023,Ridge + macro,Ridge + macro,100.0,5.779569545319353
+2023,RandomForest internal,RandomForest internal,4.0,5.018452709229227
+2023,RandomForest + macro,RandomForest + macro,4.0,5.161492860835756
+2023,GradientBoosting internal,GradientBoosting internal,1.0,5.023224959255123
+2023,GradientBoosting + macro,GradientBoosting + macro,2.0,5.190815277600169
+2023,CatBoost internal,CatBoost internal,4.0,4.658202160037307
+2023,CatBoost + macro,CatBoost + macro,4.0,4.730544197626797
+2023,Delta | Ridge internal,Delta | Ridge internal,1.0,4.7540872276650274
+2023,Delta | Ridge + macro,Delta | Ridge + macro,100.0,5.293851189316554
+2023,Delta | RandomForest internal,Delta | RandomForest internal,2.0,4.7815999931456
+2023,Delta | RandomForest + macro,Delta | RandomForest + macro,2.0,4.7213318291452175
+2023,Delta | GradientBoosting internal,Delta | GradientBoosting internal,1.0,4.795708854960485
+2023,Delta | GradientBoosting + macro,Delta | GradientBoosting + macro,2.0,4.67831173544681
+2023,Delta | CatBoost internal,Delta | CatBoost internal,2.0,4.785523798304248
+2023,Delta | CatBoost + macro,Delta | CatBoost + macro,2.0,4.745957177234716
+2023,Loss | GradientBoosting absolute_error internal,Loss | GradientBoosting absolute_error internal,1.0,4.655793779342149
+2023,Loss | GradientBoosting absolute_error + macro,Loss | GradientBoosting absolute_error + macro,1.0,4.725582333927094
+2023,Loss | GradientBoosting huber internal,Loss | GradientBoosting huber internal,2.0,4.689704900875832
+2023,Loss | GradientBoosting huber + macro,Loss | GradientBoosting huber + macro,2.0,4.73436108945638
+2023,Loss | CatBoost MAE internal,Loss | CatBoost MAE internal,4.0,4.722150476243621
+2023,Loss | CatBoost MAE + macro,Loss | CatBoost MAE + macro,4.0,4.643686003502481
+2023,P0 | ML selector,CatBoost internal,4.0,4.658202160037307
+2023,E1 | ML + naive selector,CatBoost internal,4.0,4.658202160037307
+2023,E2 | delta selector,Delta | GradientBoosting + macro,2.0,4.67831173544681
+2023,E3 | loss selector,Loss | CatBoost MAE + macro,4.0,4.643686003502481
+2024,Ridge internal,Ridge internal,10.0,4.709152035564129
+2024,Ridge + macro,Ridge + macro,100.0,5.480018308350867
+2024,RandomForest internal,RandomForest internal,2.0,4.56544266868842
+2024,RandomForest + macro,RandomForest + macro,2.0,4.501096282926607
+2024,GradientBoosting internal,GradientBoosting internal,1.0,4.310654619995306
+2024,GradientBoosting + macro,GradientBoosting + macro,1.0,4.59349139741918
+2024,CatBoost internal,CatBoost internal,2.0,4.467555239477694
+2024,CatBoost + macro,CatBoost + macro,2.0,4.607955622925677
+2024,Delta | Ridge internal,Delta | Ridge internal,1.0,4.740372606162896
+2024,Delta | Ridge + macro,Delta | Ridge + macro,100.0,5.162404569337515
+2024,Delta | RandomForest internal,Delta | RandomForest internal,2.0,4.4288681531051255
+2024,Delta | RandomForest + macro,Delta | RandomForest + macro,2.0,4.435371241463842
+2024,Delta | GradientBoosting internal,Delta | GradientBoosting internal,1.0,4.400775486484
+2024,Delta | GradientBoosting + macro,Delta | GradientBoosting + macro,1.0,4.492277265776459
+2024,Delta | CatBoost internal,Delta | CatBoost internal,2.0,4.461794480237152
+2024,Delta | CatBoost + macro,Delta | CatBoost + macro,2.0,4.379914328986995
+2024,Loss | GradientBoosting absolute_error internal,Loss | GradientBoosting absolute_error internal,1.0,3.7793464098530714
+2024,Loss | GradientBoosting absolute_error + macro,Loss | GradientBoosting absolute_error + macro,1.0,3.7983276808629625
+2024,Loss | GradientBoosting huber internal,Loss | GradientBoosting huber internal,1.0,4.17981088889293
+2024,Loss | GradientBoosting huber + macro,Loss | GradientBoosting huber + macro,1.0,4.220244790699714
+2024,Loss | CatBoost MAE internal,Loss | CatBoost MAE internal,2.0,4.47862488394573
+2024,Loss | CatBoost MAE + macro,Loss | CatBoost MAE + macro,2.0,4.263366598115946
+2024,P0 | ML selector,GradientBoosting internal,1.0,4.310654619995306
+2024,E1 | ML + naive selector,GradientBoosting internal,1.0,4.310654619995306
+2024,E2 | delta selector,Delta | CatBoost + macro,2.0,4.379914328986995
+2024,E3 | loss selector,Loss | GradientBoosting absolute_error internal,1.0,3.7793464098530714

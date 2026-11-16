@@ -1,0 +1,287 @@
+[
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/company_financials.csv",
+    "destination": "data/annual/company_financials.csv",
+    "sha256": "fa3ec5eaa7de46a6fc74c20ba8daa5872a27678ba8f8313f074a3c506b948b1d"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/data_dictionary.json",
+    "destination": "data/annual/data_dictionary.json",
+    "sha256": "9cfa9cb317628c8bb3fc30f3634744d60cc261eb09755a6519f056c8bc86882b"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/exploratory_2025.csv",
+    "destination": "results/annual/exploratory_2025.csv",
+    "sha256": "a20119961cab3ef8d1a738e793fed73eecd5c9420a13dc12ee105a2bae9d3980"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/folds.csv",
+    "destination": "results/annual/folds.csv",
+    "sha256": "9c70d2accab80fa6d6c2da810c45d9420730586887c8551fc6bbc84a17c8cfb6"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/inner_cv_results.csv",
+    "destination": "results/annual/inner_cv_results.csv",
+    "sha256": "3a27002baf9c2cd7c4f0952b12310a06de8c669eb6b96bac340c0db63e73e7e3"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/macro_ablation.csv",
+    "destination": "results/annual/macro_ablation.csv",
+    "sha256": "3e39c109b8caaeb9564bb24bd3dfc5f3514396466a4336045440bdfccffdba59"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/macro_by_year.csv",
+    "destination": "data/annual/macro_by_year.csv",
+    "sha256": "4d0bced82fcd0a1a4b50b0db426dd5c94c86946bedc003a849bbeed3d754daeb"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/macro_sources.json",
+    "destination": "data/annual/macro_sources.json",
+    "sha256": "fc35c345a962552a24f8c5be3863f855a1cdcef6e19d8891105838fe8f7088d2"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/metrics_by_company.csv",
+    "destination": "results/annual/metrics_by_company.csv",
+    "sha256": "52fcf2419e12776a6f57cd2c848ddb04a89f67351e4f66656852d12834f0e361"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/metrics_by_year.csv",
+    "destination": "results/annual/metrics_by_year.csv",
+    "sha256": "08d020c99f5dfa4ef81958b608f423ff581cbaff0bc8107fc2b126f04e5d7537"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/model_features.csv",
+    "destination": "data/annual/model_features.csv",
+    "sha256": "dc1fcb9ee31f0bc9bfd72eac24ab4d3e00c400edc0aa14c835df6b0b8f99e799"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/model_metrics.csv",
+    "destination": "results/annual/model_metrics.csv",
+    "sha256": "5dd721e34a181854652e5d3ffe235cbee3199d4fe790cdbde0f1c8e271989805"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/model_protocol.json",
+    "destination": "results/annual/model_protocol.json",
+    "sha256": "66a9db9bd12de640b06805356f892415a24a953962ef9d6f1f69ed1048837230"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/paired_cluster_bootstrap.csv",
+    "destination": "results/annual/paired_cluster_bootstrap.csv",
+    "sha256": "4f724d446040d60aaac316be2cc438e724d7a367876895130e7b4ed87dd83406"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/predictions.csv",
+    "destination": "results/annual/predictions.csv",
+    "sha256": "760f31ba56f711ac7380fc519230240d040caa754d41b0da90e38ddc32a1c5a7"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/selected_parameters.csv",
+    "destination": "results/annual/selected_parameters.csv",
+    "sha256": "bfe4cc8e74b64f0b7faeb455bd387a313012f87dc2c2ff587d0c206082b3f35b"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual/source_registry.json",
+    "destination": "data/annual/source_registry.json",
+    "sha256": "2aea2e2865c3fc24adfa56c6b31d2395e56e9b1d46b0551b9ef7db9e7259025e"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/by_company.csv",
+    "destination": "results/annual_extensions/by_company.csv",
+    "sha256": "b6180c2a83884e588c0e3e5542b36a4bfdcb554ed83312cab5da2080a17973ab"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/by_year.csv",
+    "destination": "results/annual_extensions/by_year.csv",
+    "sha256": "da2cdf7cc75353e6ad2867468daa58862a012e2fe2c6dcb9ac1148dc8b3884c6"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/experiment_protocol.json",
+    "destination": "results/annual_extensions/experiment_protocol.json",
+    "sha256": "c5ebb0813d8afb49f3fe3ce31e2c0a889cb36d35007f8440f24813a67bdd2a14"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/folds.csv",
+    "destination": "results/annual_extensions/folds.csv",
+    "sha256": "afd285971c4f8ea4f88cc4f650af8fea5176b6bf54f336c357ae82c036b3e18d"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/inner_cv.csv",
+    "destination": "results/annual_extensions/inner_cv.csv",
+    "sha256": "b65d2ef3eb901fb3199c5efbc572fe9494940c426a020532b445462e46ca0983"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/metrics.csv",
+    "destination": "results/annual_extensions/metrics.csv",
+    "sha256": "6dd88eed73b2772daa37051b72eb443656ec8958858ae99ff77c03460cc4452f"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/paired_cluster_bootstrap.csv",
+    "destination": "results/annual_extensions/paired_cluster_bootstrap.csv",
+    "sha256": "a76005d0d1ea1b0740352bc2141cc1441b11fe41c1963b2611fb2bf5643748d5"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/predictions.csv",
+    "destination": "results/annual_extensions/predictions.csv",
+    "sha256": "8768c772ec51a471a34a0ff55e688182b8ceeb7b2611f19b7ab8de8690f0dba1"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/secondary_variant_bootstrap.csv",
+    "destination": "results/annual_extensions/secondary_variant_bootstrap.csv",
+    "sha256": "dbe66e7b6e444986e08378a8fdb7fe8341d022ae74731c05c4ebdca0659b5542"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/annual_extensions/selected_models.csv",
+    "destination": "results/annual_extensions/selected_models.csv",
+    "sha256": "912a1071c3e4d5ffb9d3e9dccbd5adc706cde59bd34e7b9a37f43c81c7f704b4"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/annual_reconciliation.csv",
+    "destination": "results/quarterly/annual_reconciliation.csv",
+    "sha256": "4972eb3f769448957222d8abfb479ba6cd23d272186cd355628117dfa8c9871d"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/by_company.csv",
+    "destination": "results/quarterly/by_company.csv",
+    "sha256": "34cc137a7b35b90a83aa78ebaaaeebf19f96fca304609d294344ae7d75ab392e"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/by_quarter.csv",
+    "destination": "results/quarterly/by_quarter.csv",
+    "sha256": "d6b2554a54d2d6da9d8347fb51195a68a2fec8d72ac9b92970bbfed91bff7b77"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/by_year.csv",
+    "destination": "results/quarterly/by_year.csv",
+    "sha256": "03ac57f8dd5ecf70de8437fbf005e4ea7c0a171685f83d0bbb1505bab83ea0c3"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/company_quarterly.csv",
+    "destination": "data/quarterly/company_quarterly.csv",
+    "sha256": "52e6950d0968f1de08dfa7d3e61d79466c612bcc9681cb0ea4ffc4621f101a92"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/features_conditional_lag1.csv",
+    "destination": "data/quarterly/features_conditional_lag1.csv",
+    "sha256": "ea9f36658504ca7c926549e4854d89f62093572bce856aa540a119101e9fa9ab"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/features_main_lag2.csv",
+    "destination": "data/quarterly/features_main_lag2.csv",
+    "sha256": "e17f6be26e304aa16b7cf78c6c72a72943c63800ad83869f3315db74d6d3550b"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/features_reported_quarter_lag2.csv",
+    "destination": "data/quarterly/features_reported_quarter_lag2.csv",
+    "sha256": "5ec628aa7a1fb2bb09cdcf5f25247923e8f1f82ea5e9f3a4e6fa50e1c3df3e8d"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/folds.csv",
+    "destination": "results/quarterly/folds.csv",
+    "sha256": "c94b1ea75cf25c2632d76c41618ae10a6ad46b0dd424b230dc65aa61c9d4ae20"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/macro_quarterly.csv",
+    "destination": "data/quarterly/macro_quarterly.csv",
+    "sha256": "8356dd9b4eeaac4414c68529efd92262406b5aefbda9a20a100bb4b6fe501dcf"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/metrics.csv",
+    "destination": "results/quarterly/metrics.csv",
+    "sha256": "25b45103aa913d413cdac723f81175858597c331eb1a895536f05e2e9bb27344"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/paired_bootstrap.json",
+    "destination": "results/quarterly/paired_bootstrap.json",
+    "sha256": "b088e700505e274ab72c2721fac150c0deca5d39c452a71aa045338db4e356ba"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/predictions.csv",
+    "destination": "results/quarterly/predictions.csv",
+    "sha256": "abc12b3f2421a6183c74bd76e9c605d24c5e18c830d7688279716176725f629a"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/protocol.json",
+    "destination": "results/quarterly/protocol.json",
+    "sha256": "0feb192b2950709e104e4be36ad219651c7d98c7cb1cb7612c8925da7e240b5e"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/reviewed_source_inputs.csv",
+    "destination": "data/quarterly/reviewed_source_inputs.csv",
+    "sha256": "3dffdec6372ccdd0df1cbff357784eebc0e346f0669bfed2278f7e4047570550"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/data/quarterly/source_registry.json",
+    "destination": "data/quarterly/source_registry.json",
+    "sha256": "e01a64d239a41491c05f50f51e7afecaa818911bd81ce40c040eef99d485fc06"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/code/original/harmonize_dataset_20261016.py",
+    "destination": "code/original/harmonize_dataset_20261016.py",
+    "sha256": "fa8182039732f459aa16f7a71e26a2bf586b507ec562d6017779aa46fef4bc12"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/code/original/retest_harmonized_models_20261016.py",
+    "destination": "code/original/retest_harmonized_models_20261016.py",
+    "sha256": "25294172b50760503ad74b09a4957dfab24d33da52a7705cf6c7cb19e85c655c"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/code/original/run_annual_experiments_20261019.py",
+    "destination": "code/original/run_annual_experiments_20261019.py",
+    "sha256": "2f5207345ff36cb17b648688afbf8393b1aa013ff51e0d64e0595d6846fb158e"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/code/original/run_quarterly_pilot_20261019.py",
+    "destination": "code/original/run_quarterly_pilot_20261019.py",
+    "sha256": "59dd647efd9085542e56391d023bc59626909bed1cc5a880a117e4c729e78b09"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/requirements.txt",
+    "destination": "requirements.txt",
+    "sha256": "f3daf8d59314046ba4dc9a948d972ca8f5a07cd812793e9696599a31b45f209e"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/source_url_crosswalk.json",
+    "destination": "data/annual/source_url_crosswalk.json",
+    "sha256": "86a0b691387e82d9a56f50ef63605311aa2ccbbf8340d86041bc06c48be055fc"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/paired_macro_bootstrap.csv",
+    "destination": "results/comparisons/paired_macro_bootstrap.csv",
+    "sha256": "306566036b2eb378afcff6ccaa76097bc86a22f9bff9c2bb4cceee40eb27a4b5"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/macro_effect_by_year.csv",
+    "destination": "results/comparisons/macro_effect_by_year.csv",
+    "sha256": "d0e4e41624f6516f5329631822b257ad16a4245ce09665ba31196f3075067541"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/verification.json",
+    "destination": "docs/history_20261021/verification.json",
+    "sha256": "6032d923fe8abd8fb14495c63a1c2654823cea47a1e6da120238b3ef8cf621ee"
+  },
+  {
+    "source": "outputs/article_aitu_2026-10-21/replication/final_verification.json",
+    "destination": "docs/history_20261021/final_verification.json",
+    "sha256": "971ea29570f5d11819899ce5fa260b0850efc8ca7924c51fba5c6c42a9b99442"
+  },
+  {
+    "source": "tmp/reports_20261113/annual.png",
+    "destination": "figures/annual.png",
+    "sha256": "a19475518a9a9c17303a456b4fce8262b80481a9ca4e5bdc4399ace55de799c8"
+  },
+  {
+    "source": "tmp/reports_20261113/years.png",
+    "destination": "figures/years.png",
+    "sha256": "c4b93649150b80284b0f0415353b8751fab9cc2fb5a5d65fe8b4ac4018735197"
+  },
+  {
+    "source": "tmp/reports_20261113/quarter.png",
+    "destination": "figures/quarter.png",
+    "sha256": "aa7988aa157235dd97a0156c5b981992cbeda65b798e38bb7df057a9047eafc4"
+  },
+  {
+    "source": "outputs/practice_expanded_2026-11-16/Отчёт_по_исследовательской_практике_Габиденов_расширенный.docx",
+    "destination": "Неделя_10_Отчет/Отчёт_по_исследовательской_практике_Габиденов_расширенный.docx",
+    "sha256": "930438f3794774fd3129ede3b9b94634885eeb3808e16f3be0bfbae247cc1f71"
+  }
+]

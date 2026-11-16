@@ -1,0 +1,43 @@
+experiment,family,year,N,delta_MAE_pp
+original,Ridge,2018,12,3.429200298342178
+original,Ridge,2019,12,0.6075039288611258
+original,Ridge,2020,13,-0.1287552965156493
+original,Ridge,2021,13,1.870256268903748
+original,Ridge,2022,13,0.9052578251964598
+original,Ridge,2023,13,0.8092217678438449
+original,Ridge,2024,12,0.45048118205398396
+original,RandomForest,2018,12,0.21198812412582235
+original,RandomForest,2019,12,0.3317665093317825
+original,RandomForest,2020,13,0.2469546589042467
+original,RandomForest,2021,13,0.04010731263569901
+original,RandomForest,2022,13,0.14205848327963866
+original,RandomForest,2023,13,-0.11353086671825355
+original,RandomForest,2024,12,0.28285621725735205
+original,GradientBoosting,2018,12,-0.01285293233877336
+original,GradientBoosting,2019,12,-0.11980597985647175
+original,GradientBoosting,2020,13,-0.12977873600051246
+original,GradientBoosting,2021,13,-0.11697407608893903
+original,GradientBoosting,2022,13,1.0280267629569908
+original,GradientBoosting,2023,13,-0.015314933466597385
+original,GradientBoosting,2024,12,-0.12636434568559438
+original,CatBoost,2018,12,0.2618739980266919
+original,CatBoost,2019,12,-0.2965098827511482
+original,CatBoost,2020,13,-0.00527174674364111
+original,CatBoost,2021,13,0.1386348730413714
+original,CatBoost,2022,13,0.2271012782540276
+original,CatBoost,2023,13,-0.018035357185703395
+original,CatBoost,2024,12,0.16317900025241996
+exploratory,GradientBoosting absolute_error,2018,12,0.14623645809354482
+exploratory,GradientBoosting absolute_error,2019,12,-0.22319945298955243
+exploratory,GradientBoosting absolute_error,2020,13,-0.09098207529040649
+exploratory,GradientBoosting absolute_error,2021,13,0.38849272165078763
+exploratory,GradientBoosting absolute_error,2022,13,0.05161756213992527
+exploratory,GradientBoosting absolute_error,2023,13,-0.0007495740869753358
+exploratory,GradientBoosting absolute_error,2024,12,0.03484685803655513
+exploratory,CatBoost MAE,2018,12,-0.09956462768777995
+exploratory,CatBoost MAE,2019,12,-0.21062203434218985
+exploratory,CatBoost MAE,2020,13,-0.5259941556641263
+exploratory,CatBoost MAE,2021,13,0.31013073760437326
+exploratory,CatBoost MAE,2022,13,-0.9774715242453228
+exploratory,CatBoost MAE,2023,13,-0.15352659391006646
+exploratory,CatBoost MAE,2024,12,0.31825875483981164

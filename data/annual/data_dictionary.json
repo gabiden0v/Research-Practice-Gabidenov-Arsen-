@@ -1,0 +1,22 @@
+{
+  "grain": "company-year; financial fields in thousands of the specified original currency",
+  "sales_revenue": "Air Astana: passenger + cargo/mail. Kazchrome 2017: restated continuing sales. TCO: unavailable, not zero. Other companies: source sales/continuing revenue.",
+  "reported_revenue": "Corrected amount from the source line previously called revenue; may include other income. Kept for audit, not substituted for sales.",
+  "net_profit": "Total after-tax profit including NCI and discontinued operations; not owners-only or OCI.",
+  "assets": "Total assets at year end.",
+  "equity": "Total equity including NCI at year end.",
+  "actual": "Target ROA = total net profit / year-end assets, ratio units; not average-assets or continuing-operations ROA.",
+  "features": [
+    "lagged ROA",
+    "lagged total equity/assets",
+    "lagged asset growth",
+    "lagged sales growth"
+  ],
+  "margin": "Deliberately omitted: total profit and continuing revenue can have different scopes.",
+  "publication_date": "Unknown unless separately evidenced. No fabricated as-of dates.",
+  "main_eligible": "IFRS; full-year; comparable known reporting scope. Does not mean all structural changes have been undone.",
+  "structural_breaks": "Growth through identified source/perimeter breaks is missing, not zero. Lagged values only; target-year event flags never enter predictors.",
+  "currency": "No automatic KZT/USD conversion; models use dimensionless ratios and changes within a company. Nominal totals cannot be summed across currencies.",
+  "relationship_cluster": "Conservative related-company grouping for sensitivity, not a time-invariant assertion of legal ownership.",
+  "restatement_policy": "Frozen retrospective selected sources with documented exceptions. Full historical release reconstruction remains unresolved."
+}

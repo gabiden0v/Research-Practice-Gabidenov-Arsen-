@@ -1,0 +1,514 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "check": "196 annual source rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "165 eligible annual source rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "151 annual feature rows",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "annual feature reproduction",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "2023 target perturbation does not change 2023 predictors",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "annual no duplicate prediction keys",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "all annual saved metrics reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "refit 2018 Ridge internal",
+      "passed": true,
+      "details": 5.551115123125783e-17
+    },
+    {
+      "check": "refit 2018 Ridge + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2018 RandomForest internal",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "refit 2018 RandomForest + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2018 GradientBoosting internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2018 GradientBoosting + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2018 CatBoost internal",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2018 CatBoost + macro",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2019 Ridge internal",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2019 Ridge + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2019 RandomForest internal",
+      "passed": true,
+      "details": 7.632783294297951e-17
+    },
+    {
+      "check": "refit 2019 RandomForest + macro",
+      "passed": true,
+      "details": 1.6653345369377348e-16
+    },
+    {
+      "check": "refit 2019 GradientBoosting internal",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2019 GradientBoosting + macro",
+      "passed": true,
+      "details": 6.245004513516506e-17
+    },
+    {
+      "check": "refit 2019 CatBoost internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2019 CatBoost + macro",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2020 Ridge internal",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2020 Ridge + macro",
+      "passed": true,
+      "details": 6.938893903907228e-17
+    },
+    {
+      "check": "refit 2020 RandomForest internal",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2020 RandomForest + macro",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2020 GradientBoosting internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2020 GradientBoosting + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2020 CatBoost internal",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2020 CatBoost + macro",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2021 Ridge internal",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2021 Ridge + macro",
+      "passed": true,
+      "details": 9.8879238130678e-17
+    },
+    {
+      "check": "refit 2021 RandomForest internal",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "refit 2021 RandomForest + macro",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2021 GradientBoosting internal",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2021 GradientBoosting + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2021 CatBoost internal",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2021 CatBoost + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2022 Ridge internal",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2022 Ridge + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2022 RandomForest internal",
+      "passed": true,
+      "details": 1.6653345369377348e-16
+    },
+    {
+      "check": "refit 2022 RandomForest + macro",
+      "passed": true,
+      "details": 1.1102230246251565e-16
+    },
+    {
+      "check": "refit 2022 GradientBoosting internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2022 GradientBoosting + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2022 CatBoost internal",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2022 CatBoost + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2023 Ridge internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2023 Ridge + macro",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2023 RandomForest internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2023 RandomForest + macro",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2023 GradientBoosting internal",
+      "passed": true,
+      "details": 5.551115123125783e-17
+    },
+    {
+      "check": "refit 2023 GradientBoosting + macro",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2023 CatBoost internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2023 CatBoost + macro",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2024 Ridge internal",
+      "passed": true,
+      "details": 8.326672684688674e-17
+    },
+    {
+      "check": "refit 2024 Ridge + macro",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2024 RandomForest internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2024 RandomForest + macro",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2024 GradientBoosting internal",
+      "passed": true,
+      "details": 9.71445146547012e-17
+    },
+    {
+      "check": "refit 2024 GradientBoosting + macro",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2024 CatBoost internal",
+      "passed": true,
+      "details": 9.020562075079397e-17
+    },
+    {
+      "check": "refit 2024 CatBoost + macro",
+      "passed": true,
+      "details": 7.632783294297951e-17
+    },
+    {
+      "check": "annual extension metrics reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly metrics reproduced",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "72 distinct quarterly cases",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profit identity",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KCELL 2020",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KCELL 2021",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KCELL 2022",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KCELL 2023",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KCELL 2024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KCELL 2025",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KEGOC 2020",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KEGOC 2021",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KEGOC 2022",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KEGOC 2023",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KEGOC 2024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KEGOC 2025",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KZTO 2020",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KZTO 2021",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KZTO 2022",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KZTO 2023",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KZTO 2024",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "quarterly profits sum to annual source KZTO 2025",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paired original Ridge",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paired original RandomForest",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paired original GradientBoosting",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paired original CatBoost",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paired exploratory GradientBoosting absolute_error",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "paired exploratory CatBoost MAE",
+      "passed": true,
+      "details": null
+    },
+    {
+      "check": "source files unchanged",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "original_hashes": {
+    "outputs\\dataset_harmonized_2026-10-16\\company_financials.csv": "fa3ec5eaa7de46a6fc74c20ba8daa5872a27678ba8f8313f074a3c506b948b1d",
+    "outputs\\dataset_harmonized_2026-10-16\\macro_by_year.csv": "4d0bced82fcd0a1a4b50b0db426dd5c94c86946bedc003a849bbeed3d754daeb",
+    "outputs\\dataset_harmonized_2026-10-16\\source_registry.json": "2aea2e2865c3fc24adfa56c6b31d2395e56e9b1d46b0551b9ef7db9e7259025e",
+    "outputs\\dataset_harmonized_2026-10-16\\macro_sources.json": "fc35c345a962552a24f8c5be3863f855a1cdcef6e19d8891105838fe8f7088d2",
+    "outputs\\dataset_harmonized_2026-10-16\\data_dictionary.json": "9cfa9cb317628c8bb3fc30f3634744d60cc261eb09755a6519f056c8bc86882b",
+    "outputs\\dataset_harmonized_2026-10-16\\model_features.csv": "dc1fcb9ee31f0bc9bfd72eac24ab4d3e00c400edc0aa14c835df6b0b8f99e799",
+    "outputs\\dataset_harmonized_2026-10-16\\model_protocol.json": "66a9db9bd12de640b06805356f892415a24a953962ef9d6f1f69ed1048837230",
+    "outputs\\dataset_harmonized_2026-10-16\\predictions.csv": "760f31ba56f711ac7380fc519230240d040caa754d41b0da90e38ddc32a1c5a7",
+    "outputs\\dataset_harmonized_2026-10-16\\model_metrics.csv": "5dd721e34a181854652e5d3ffe235cbee3199d4fe790cdbde0f1c8e271989805",
+    "outputs\\dataset_harmonized_2026-10-16\\macro_ablation.csv": "3e39c109b8caaeb9564bb24bd3dfc5f3514396466a4336045440bdfccffdba59",
+    "outputs\\dataset_harmonized_2026-10-16\\folds.csv": "9c70d2accab80fa6d6c2da810c45d9420730586887c8551fc6bbc84a17c8cfb6",
+    "outputs\\dataset_harmonized_2026-10-16\\selected_parameters.csv": "bfe4cc8e74b64f0b7faeb455bd387a313012f87dc2c2ff587d0c206082b3f35b",
+    "outputs\\dataset_harmonized_2026-10-16\\inner_cv_results.csv": "3a27002baf9c2cd7c4f0952b12310a06de8c669eb6b96bac340c0db63e73e7e3",
+    "outputs\\dataset_harmonized_2026-10-16\\paired_cluster_bootstrap.csv": "4f724d446040d60aaac316be2cc438e724d7a367876895130e7b4ed87dd83406",
+    "outputs\\dataset_harmonized_2026-10-16\\exploratory_2025.csv": "a20119961cab3ef8d1a738e793fed73eecd5c9420a13dc12ee105a2bae9d3980",
+    "outputs\\annual_experiments_2026-10-19\\experiment_protocol.json": "c5ebb0813d8afb49f3fe3ce31e2c0a889cb36d35007f8440f24813a67bdd2a14",
+    "outputs\\annual_experiments_2026-10-19\\predictions.csv": "8768c772ec51a471a34a0ff55e688182b8ceeb7b2611f19b7ab8de8690f0dba1",
+    "outputs\\annual_experiments_2026-10-19\\metrics.csv": "6dd88eed73b2772daa37051b72eb443656ec8958858ae99ff77c03460cc4452f",
+    "outputs\\annual_experiments_2026-10-19\\selected_models.csv": "912a1071c3e4d5ffb9d3e9dccbd5adc706cde59bd34e7b9a37f43c81c7f704b4",
+    "outputs\\annual_experiments_2026-10-19\\inner_cv.csv": "b65d2ef3eb901fb3199c5efbc572fe9494940c426a020532b445462e46ca0983",
+    "outputs\\annual_experiments_2026-10-19\\folds.csv": "afd285971c4f8ea4f88cc4f650af8fea5176b6bf54f336c357ae82c036b3e18d",
+    "outputs\\annual_experiments_2026-10-19\\secondary_variant_bootstrap.csv": "dbe66e7b6e444986e08378a8fdb7fe8341d022ae74731c05c4ebdca0659b5542",
+    "outputs\\annual_experiments_2026-10-19\\paired_cluster_bootstrap.csv": "a76005d0d1ea1b0740352bc2141cc1441b11fe41c1963b2611fb2bf5643748d5",
+    "outputs\\quarterly_pilot_2026-10-19\\company_quarterly.csv": "52e6950d0968f1de08dfa7d3e61d79466c612bcc9681cb0ea4ffc4621f101a92",
+    "outputs\\quarterly_pilot_2026-10-19\\reviewed_source_inputs.csv": "3dffdec6372ccdd0df1cbff357784eebc0e346f0669bfed2278f7e4047570550",
+    "outputs\\quarterly_pilot_2026-10-19\\macro_quarterly.csv": "8356dd9b4eeaac4414c68529efd92262406b5aefbda9a20a100bb4b6fe501dcf",
+    "outputs\\quarterly_pilot_2026-10-19\\source_registry.json": "e01a64d239a41491c05f50f51e7afecaa818911bd81ce40c040eef99d485fc06",
+    "outputs\\quarterly_pilot_2026-10-19\\protocol.json": "0feb192b2950709e104e4be36ad219651c7d98c7cb1cb7612c8925da7e240b5e",
+    "outputs\\quarterly_pilot_2026-10-19\\features_main_lag2.csv": "e17f6be26e304aa16b7cf78c6c72a72943c63800ad83869f3315db74d6d3550b",
+    "outputs\\quarterly_pilot_2026-10-19\\features_reported_quarter_lag2.csv": "5ec628aa7a1fb2bb09cdcf5f25247923e8f1f82ea5e9f3a4e6fa50e1c3df3e8d",
+    "outputs\\quarterly_pilot_2026-10-19\\features_conditional_lag1.csv": "ea9f36658504ca7c926549e4854d89f62093572bce856aa540a119101e9fa9ab",
+    "outputs\\quarterly_pilot_2026-10-19\\predictions.csv": "abc12b3f2421a6183c74bd76e9c605d24c5e18c830d7688279716176725f629a",
+    "outputs\\quarterly_pilot_2026-10-19\\metrics.csv": "25b45103aa913d413cdac723f81175858597c331eb1a895536f05e2e9bb27344",
+    "outputs\\quarterly_pilot_2026-10-19\\by_company.csv": "34cc137a7b35b90a83aa78ebaaaeebf19f96fca304609d294344ae7d75ab392e",
+    "outputs\\quarterly_pilot_2026-10-19\\by_year.csv": "03ac57f8dd5ecf70de8437fbf005e4ea7c0a171685f83d0bbb1505bab83ea0c3",
+    "outputs\\quarterly_pilot_2026-10-19\\folds.csv": "c94b1ea75cf25c2632d76c41618ae10a6ad46b0dd424b230dc65aa61c9d4ae20",
+    "outputs\\quarterly_pilot_2026-10-19\\annual_reconciliation.csv": "4972eb3f769448957222d8abfb479ba6cd23d272186cd355628117dfa8c9871d",
+    "outputs\\quarterly_pilot_2026-10-19\\paired_bootstrap.json": "b088e700505e274ab72c2721fac150c0deca5d39c452a71aa045338db4e356ba"
+  },
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "catboost": "1.2.10",
+    "scipy": "1.18.1"
+  },
+  "python": "3.12.14",
+  "note": "Recomputed every metric and refitted all 56 original main annual model/year variants. Exploratory and quarterly saved predictions are re-aggregated, not refitted in this packaging run."
+}

@@ -1,0 +1,13 @@
+﻿model,comparator,cluster,delta_MAE_pp,lo_pp,hi_pp
+Loss | GradientBoosting absolute_error internal,Naive last ROA,year,-0.22295571873408254,-0.8075316894796901,0.3539238878975207
+Loss | GradientBoosting absolute_error internal,Naive last ROA,group,-0.22295571873408254,-0.6601521956609797,0.32696890717783267
+Loss | GradientBoosting absolute_error internal,GradientBoosting internal,year,-0.3139368829817983,-0.7773809784877295,0.1804374506517388
+Loss | GradientBoosting absolute_error internal,GradientBoosting internal,group,-0.3139368829817983,-0.5938957710069985,0.1850587029350571
+Loss | GradientBoosting absolute_error internal,P0 | ML selector,year,-0.2561693516803953,-0.8764127989139457,0.3546262736674043
+Loss | GradientBoosting absolute_error internal,P0 | ML selector,group,-0.2561693516803953,-0.7286178268889474,0.5805829717256394
+Loss | CatBoost MAE + macro,Naive last ROA,year,-0.13621874838004341,-0.6110887523460046,0.3501224357340868
+Loss | CatBoost MAE + macro,Naive last ROA,group,-0.13621874838004341,-0.6867319356011223,0.32471766512210865
+Loss | CatBoost MAE + macro,GradientBoosting internal,year,-0.2271999126277592,-0.7314789460993574,0.1376377020916115
+Loss | CatBoost MAE + macro,GradientBoosting internal,group,-0.2271999126277592,-0.488314996938631,0.07388909845209858
+Loss | CatBoost MAE + macro,P0 | ML selector,year,-0.16943238132635632,-0.5169187464083854,0.20659763885449492
+Loss | CatBoost MAE + macro,P0 | ML selector,group,-0.16943238132635632,-0.5062330984492592,0.27415165291710425

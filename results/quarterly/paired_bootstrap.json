@@ -1,0 +1,26 @@
+[
+  {
+    "model": "GB MAE internal",
+    "reference": "Seasonal naive",
+    "MAE_difference_pp": -0.1474714237167008,
+    "lower": -0.34300647277479945,
+    "upper": 0.04343479135691488,
+    "test_quarters": 8
+  },
+  {
+    "model": "CatBoost MAE + macro",
+    "reference": "Seasonal naive",
+    "MAE_difference_pp": -0.0567357109757982,
+    "lower": -0.23646305368366166,
+    "upper": 0.09889763003019249,
+    "test_quarters": 8
+  },
+  {
+    "model": "CatBoost MAE + macro",
+    "reference": "CatBoost MAE internal (control)",
+    "MAE_difference_pp": -0.03466694115363551,
+    "lower": -0.09315020759208781,
+    "upper": 0.015183479503395774,
+    "test_quarters": 8
+  }
+]

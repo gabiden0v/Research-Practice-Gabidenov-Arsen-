@@ -1,0 +1,632 @@
+[
+  {
+    "source_id": "C01_2015",
+    "archive_path": "tmp/full_audit_sources_20261016/air2015.pdf",
+    "public_url": "https://ir.airastana.com/media/1zvekcuy/annual_report_2015_en.pdf",
+    "sha256": "a9f46569428c35e18b32d61fae7fa5ae6fde5f95beec9273cfcaa81a0f8b7fe6",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2016",
+    "archive_path": "tmp/full_audit_sources_20261016/air2017.pdf",
+    "public_url": "https://ir.airastana.com/media/53dk3bik/annual_report_2017_en.pdf",
+    "sha256": "b60b161cb51c49042a35900bdf4f8120c45029a1ee9f4297af549a9cdb9e3f93",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2017",
+    "archive_path": "tmp/full_audit_sources_20261016/air2017.pdf",
+    "public_url": "https://ir.airastana.com/media/53dk3bik/annual_report_2017_en.pdf",
+    "sha256": "b60b161cb51c49042a35900bdf4f8120c45029a1ee9f4297af549a9cdb9e3f93",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2018",
+    "archive_path": "tmp/full_audit_sources_20261016/air2018.pdf",
+    "public_url": "https://ir.airastana.com/media/h33pozle/annual_reports_2018_en.pdf",
+    "sha256": "36b0d600fda54a91ca1193fe0a0866c1b8f61b89d9c9c147e15991a269a60fd8",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2019",
+    "archive_path": "tmp/full_audit_sources_20261016/air2021.pdf",
+    "public_url": "https://ir.airastana.com/media/8dc25bef2cb997e/annual-report-2021.pdf",
+    "sha256": "d3cb95325e8331df66afb69f61ed97105370ad03bee4eb74b8915b9429d2f150",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2020",
+    "archive_path": "tmp/full_audit_sources_20261016/air2021.pdf",
+    "public_url": "https://ir.airastana.com/media/8dc25bef2cb997e/annual-report-2021.pdf",
+    "sha256": "d3cb95325e8331df66afb69f61ed97105370ad03bee4eb74b8915b9429d2f150",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2021",
+    "archive_path": "tmp/full_audit_sources_20261016/air2021.pdf",
+    "public_url": "https://ir.airastana.com/media/8dc25bef2cb997e/annual-report-2021.pdf",
+    "sha256": "d3cb95325e8331df66afb69f61ed97105370ad03bee4eb74b8915b9429d2f150",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2022",
+    "archive_path": "tmp/full_audit_sources_20261016/air2023.pdf",
+    "public_url": "https://ir.airastana.com/media/8dc44aa8f61bda7/aa-fs-2023-conso-usd.pdf",
+    "sha256": "25ef9ef52dc9cbc2d96b7698c30cdbea5901fae5e073e352416a48bdf46ecfc1",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2023",
+    "archive_path": "tmp/full_audit_sources_20261016/air2024.pdf",
+    "public_url": "https://ir.airastana.com/media/8dd896c7414e4cb/annual-report-formated.pdf",
+    "sha256": "f04fab98df958d961e819110383a6036d967a47f899ddc69f9ef3010dfe881e4",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C01_2024",
+    "archive_path": "tmp/full_audit_sources_20261016/air2024.pdf",
+    "public_url": "https://ir.airastana.com/media/8dd896c7414e4cb/annual-report-formated.pdf",
+    "sha256": "f04fab98df958d961e819110383a6036d967a47f899ddc69f9ef3010dfe881e4",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2012",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2013_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2013_cons.pdf",
+    "sha256": "5c20a6283ef44fb50d14637c63fa8ba92113e52aa5c32bddbbfd288f1046ee17",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2013",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2013_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2013_cons.pdf",
+    "sha256": "5c20a6283ef44fb50d14637c63fa8ba92113e52aa5c32bddbbfd288f1046ee17",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2014",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2015_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2015_cons_rus.pdf",
+    "sha256": "838843f985e58fe6e1b6c190eb63c0a2c18bb2dee368f85ce0c8ebad33c2bbde",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2015",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2015_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2015_cons_rus.pdf",
+    "sha256": "838843f985e58fe6e1b6c190eb63c0a2c18bb2dee368f85ce0c8ebad33c2bbde",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2016",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2017_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2017_cons_rus.pdf",
+    "sha256": "0388e18e8a865d047c071b453d77f568969695de2769aea0a3aca86a248a558b",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2017",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2017_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2017_cons_rus.pdf",
+    "sha256": "0388e18e8a865d047c071b453d77f568969695de2769aea0a3aca86a248a558b",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2018",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2019_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2019_cons_rus.pdf",
+    "sha256": "d88921080703c4ba6fce5d39ee06ea44ffb77ee8bd6406abf60306565f284dc0",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2019",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2019_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2019_cons_rus.pdf",
+    "sha256": "d88921080703c4ba6fce5d39ee06ea44ffb77ee8bd6406abf60306565f284dc0",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2020",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2021_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2021_cons_rus.pdf",
+    "sha256": "7b57eb1ff31173264ba07717512bcffcbf465a35ca9d68d0ff703cafd0f30881",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2021",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2021_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2021_cons_rus.pdf",
+    "sha256": "7b57eb1ff31173264ba07717512bcffcbf465a35ca9d68d0ff703cafd0f30881",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2022",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2023_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2023_cons_rus.pdf",
+    "sha256": "83916ae10b316b2bd922c6ce70aa162761b38f682777186c30714ba518d75bfe",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2023",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2023_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2023_cons_rus.pdf",
+    "sha256": "83916ae10b316b2bd922c6ce70aa162761b38f682777186c30714ba518d75bfe",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2024",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2025_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2025_cons_rus.pdf",
+    "sha256": "a61c63cbf9ba74974116a0fca0f158b0cbd87654874db4499f1337052b9d8fd6",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C02_2025",
+    "archive_path": "данные/компании_панель/11_KEGOC/KEGOC_2025_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KEGC/kegcf6_2025_cons_rus.pdf",
+    "sha256": "a61c63cbf9ba74974116a0fca0f158b0cbd87654874db4499f1337052b9d8fd6",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C03_2016",
+    "archive_path": "tmp/full_audit_sources_20261016/qazaq2017.pdf",
+    "public_url": "https://qazaqgaz.kz/storage/app/media/korporativnye-dokumenty/ru/konsolidirovannaya-finansovaya-otchetnost-za-2017-god.pdf",
+    "sha256": "74bdcfa17270a132bfdbf37a221164343a9f101b6c51d0fb404b60b28803cb24",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C03_2017",
+    "archive_path": "tmp/full_audit_sources_20261016/qazaq2017.pdf",
+    "public_url": "https://qazaqgaz.kz/storage/app/media/korporativnye-dokumenty/ru/konsolidirovannaya-finansovaya-otchetnost-za-2017-god.pdf",
+    "sha256": "74bdcfa17270a132bfdbf37a221164343a9f101b6c51d0fb404b60b28803cb24",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C03_2018",
+    "archive_path": "tmp/full_audit_sources_20261016/qazaq2018.pdf",
+    "public_url": "https://qazaqgaz.kz/storage/app/media/korporativnye-dokumenty/kz/konsolidirovannaya-finansovaya-otchetnost-za-2018-god.pdf",
+    "sha256": "76ebba464a7f1e728d6bfa036d5c17b173e02a0f758983f087e65d9f21dddc4b",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C03_2019",
+    "archive_path": "tmp/full_audit_sources_20261016/qazaq2020.pdf",
+    "public_url": "https://qazaqgaz.kz/storage/app/media/korporativnye-dokumenty/ru/konsolidirovannaya-finansovaya-otchetnost-za-2020-god.pdf",
+    "sha256": "0616788d10c29749cb17dce2474aa4ddcaae99557bba7aa65154737dcca3fe76",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C03_2020",
+    "archive_path": "tmp/full_audit_sources_20261016/qazaq2020.pdf",
+    "public_url": "https://qazaqgaz.kz/storage/app/media/korporativnye-dokumenty/ru/konsolidirovannaya-finansovaya-otchetnost-za-2020-god.pdf",
+    "sha256": "0616788d10c29749cb17dce2474aa4ddcaae99557bba7aa65154737dcca3fe76",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C04_2016",
+    "archive_path": "tmp/full_audit_sources_20261016/alms2018.pdf",
+    "public_url": "https://kase.kz/files/emitters/ALMS/almsp_2018_rus.pdf",
+    "sha256": "f16dbe8bd4f5d0f481aa37cd08f1367e3fe007346d33bff884fa33a60485acf5",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C04_2017",
+    "archive_path": "tmp/full_audit_sources_20261016/alms2018.pdf",
+    "public_url": "https://kase.kz/files/emitters/ALMS/almsp_2018_rus.pdf",
+    "sha256": "f16dbe8bd4f5d0f481aa37cd08f1367e3fe007346d33bff884fa33a60485acf5",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C04_2018",
+    "archive_path": "tmp/full_audit_sources_20261016/alms2018.pdf",
+    "public_url": "https://kase.kz/files/emitters/ALMS/almsp_2018_rus.pdf",
+    "sha256": "f16dbe8bd4f5d0f481aa37cd08f1367e3fe007346d33bff884fa33a60485acf5",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C04_2019",
+    "archive_path": "tmp/full_audit_sources_20261016/alms2021.pdf",
+    "public_url": "https://kase.kz/files/emitters/ALMS/almsp_2021_rus.pdf",
+    "sha256": "9f4a0cc9150946fbab4c6f3d1e11cffa7133451adcc92a53875f80a3c0531881",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C04_2020",
+    "archive_path": "tmp/full_audit_sources_20261016/alms2021.pdf",
+    "public_url": "https://kase.kz/files/emitters/ALMS/almsp_2021_rus.pdf",
+    "sha256": "9f4a0cc9150946fbab4c6f3d1e11cffa7133451adcc92a53875f80a3c0531881",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2008",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2009_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2009_cons.pdf",
+    "sha256": "85f9fcaf333fa4d84fd30f9377c4decbc56ef02919ddb3cc5adc96780c3d8672",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2009",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2009_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2009_cons.pdf",
+    "sha256": "85f9fcaf333fa4d84fd30f9377c4decbc56ef02919ddb3cc5adc96780c3d8672",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2010",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2011_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2011_cons.pdf",
+    "sha256": "bf40e23b14c731f2951d299c17501ac11e0581f273a19efd72f26ac11c80bb48",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2011",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2011_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2011_cons.pdf",
+    "sha256": "bf40e23b14c731f2951d299c17501ac11e0581f273a19efd72f26ac11c80bb48",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2012",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2013_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2013_cons_rus.pdf",
+    "sha256": "6f512e4aca0b287c17ea4545dca6ce0c09ca29848f9261b730d67814706d5a5d",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2013",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2013_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2013_cons_rus.pdf",
+    "sha256": "6f512e4aca0b287c17ea4545dca6ce0c09ca29848f9261b730d67814706d5a5d",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2014",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2015_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2015_cons_rus.pdf",
+    "sha256": "242f81e02dc6bbdb7fd36fcc63b7c29a27b66d1b9fbabb34b7005234658b054c",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2015",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2015_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2015_cons_rus.pdf",
+    "sha256": "242f81e02dc6bbdb7fd36fcc63b7c29a27b66d1b9fbabb34b7005234658b054c",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2016",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2017_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2017_cons_rus.pdf",
+    "sha256": "3951f53ac49d50bc5e2b43a4acc1c3ec5fa0f42edd8472bdf361a2519f0203db",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2017",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2017_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2017_cons_rus.pdf",
+    "sha256": "3951f53ac49d50bc5e2b43a4acc1c3ec5fa0f42edd8472bdf361a2519f0203db",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2018",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2019_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2019_cons_rus.pdf",
+    "sha256": "006334daef58a1d0868bec4f59402c791f57dd6ae3cf3c4589efd36cbdb4c6b0",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2019",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2019_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2019_cons_rus.pdf",
+    "sha256": "006334daef58a1d0868bec4f59402c791f57dd6ae3cf3c4589efd36cbdb4c6b0",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2020",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2021_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2021_cons_rus.pdf",
+    "sha256": "766f906905ec70bf1833f0f0e68b4d9a1b04708760c526964b4e05add8bfcb6f",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2021",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2021_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2021_cons_rus.pdf",
+    "sha256": "766f906905ec70bf1833f0f0e68b4d9a1b04708760c526964b4e05add8bfcb6f",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2022",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2023_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2023_cons_rus.pdf",
+    "sha256": "364c9573f2641800b2699b0b5a908b7e6684a1d8f8987924c29e9de1a8da5e25",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2023",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2023_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2023_cons_rus.pdf",
+    "sha256": "364c9573f2641800b2699b0b5a908b7e6684a1d8f8987924c29e9de1a8da5e25",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2024",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2025_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2025_cons_rus.pdf",
+    "sha256": "34c48dffbf8ebfd117bca89331fb58252b4f9677d8728a2e3e6452173e81946e",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C05_2025",
+    "archive_path": "данные/компании_панель/05_КазТрансОйл/КазТрансОйл_2025_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTO/kztof6_2025_cons_rus.pdf",
+    "sha256": "34c48dffbf8ebfd117bca89331fb58252b4f9677d8728a2e3e6452173e81946e",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2010",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2011_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2011_cons.pdf",
+    "sha256": "d49bc93182adea72fdf84dd07ffc619d40f0c8b4e7eb2b9970579c2072243dd0",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2011",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2011_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2011_cons.pdf",
+    "sha256": "d49bc93182adea72fdf84dd07ffc619d40f0c8b4e7eb2b9970579c2072243dd0",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2012",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2013_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2013_cons_rus.pdf",
+    "sha256": "1dc701bbcbf7af12ce2a6352ed96ed4c3c9452dd35aefcdfb1734c3a4dcdcdba",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2013",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2013_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2013_cons_rus.pdf",
+    "sha256": "1dc701bbcbf7af12ce2a6352ed96ed4c3c9452dd35aefcdfb1734c3a4dcdcdba",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2014",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2015_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2015_cons.pdf",
+    "sha256": "8654f88d1b1b517e4d91de5f24ad95b74ca6565afff02c9277a494043b07dc66",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2015",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2015_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2015_cons.pdf",
+    "sha256": "8654f88d1b1b517e4d91de5f24ad95b74ca6565afff02c9277a494043b07dc66",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2016",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2017_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2017_cons.pdf",
+    "sha256": "0422ddfb20fff2025b9efdd9eccf112aabdd639891c88328f56f24f6f1f0c43d",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2017",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2017_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2017_cons.pdf",
+    "sha256": "0422ddfb20fff2025b9efdd9eccf112aabdd639891c88328f56f24f6f1f0c43d",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2018",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2019_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2019_cons_rus.pdf",
+    "sha256": "4c384a792f1b96a379fd10dd23bb430e430e88642cda2919a67318f3a1f705b1",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2019",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2019_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2019_cons_rus.pdf",
+    "sha256": "4c384a792f1b96a379fd10dd23bb430e430e88642cda2919a67318f3a1f705b1",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2020",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2021_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2021_cons_rus.pdf",
+    "sha256": "db304ac8ac7270d3f2d1817dd62f651c510d4f4347728314de07863911442c28",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2021",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2021_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2021_cons_rus.pdf",
+    "sha256": "db304ac8ac7270d3f2d1817dd62f651c510d4f4347728314de07863911442c28",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2022",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2023_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2023_cons_rus.pdf",
+    "sha256": "b53b03df0181071f7e811259e30d8ea911e30303cb4ae8865228ef036717444e",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C06_2023",
+    "archive_path": "данные/компании_панель/07_Казатомпром/Казатомпром_2023_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZAP/kzapf6_2023_cons_rus.pdf",
+    "sha256": "b53b03df0181071f7e811259e30d8ea911e30303cb4ae8865228ef036717444e",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2008",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2009_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2009_cons.pdf",
+    "sha256": "755e772ddc48c97b69e0ab4d7ec8d47820e8cf5da0bb199f15c903c99668065a",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2009",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2009_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2009_cons.pdf",
+    "sha256": "755e772ddc48c97b69e0ab4d7ec8d47820e8cf5da0bb199f15c903c99668065a",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2010",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2011_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2011_cons.pdf",
+    "sha256": "6c21db4b167083015bbba72b254345df4f4bb93ef2075c3a9aced9ba90430df3",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2011",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2011_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2011_cons.pdf",
+    "sha256": "6c21db4b167083015bbba72b254345df4f4bb93ef2075c3a9aced9ba90430df3",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2012",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2013_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2013_cons_rus.pdf",
+    "sha256": "1c0d2fa87434f1b069d94344e2661eeafd5ee7f9861415eaa3d13d055f46e68d",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2013",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2013_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2013_cons_rus.pdf",
+    "sha256": "1c0d2fa87434f1b069d94344e2661eeafd5ee7f9861415eaa3d13d055f46e68d",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2014",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2015_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2015_cons_rus.pdf",
+    "sha256": "f066346299dd7870db433c7948c5b6da24e8503d63de639de93a30c6df17da12",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2015",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2015_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2015_cons_rus.pdf",
+    "sha256": "f066346299dd7870db433c7948c5b6da24e8503d63de639de93a30c6df17da12",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2016",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2017_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2017_cons_rus.pdf",
+    "sha256": "5291965ffd157d346147b0a49313373f3939e2f868873c85dd4b115e9983f1ba",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2017",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2017_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2017_cons_rus.pdf",
+    "sha256": "5291965ffd157d346147b0a49313373f3939e2f868873c85dd4b115e9983f1ba",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2018",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2019_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2019_cons_rus.pdf",
+    "sha256": "5de0cfa2f93de42ddc55aefbf4e52abc9d7860e3b0c34670a34c997ea2c3300e",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2019",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2019_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2019_cons_rus.pdf",
+    "sha256": "5de0cfa2f93de42ddc55aefbf4e52abc9d7860e3b0c34670a34c997ea2c3300e",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2020",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2021_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2021_cons_rus_3.pdf",
+    "sha256": "b113b7c0c2ad97da952f82b0269b9e1717e3e6e05caf582a7c406ac19ec999a6",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2021",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2021_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2021_cons_rus_3.pdf",
+    "sha256": "b113b7c0c2ad97da952f82b0269b9e1717e3e6e05caf582a7c406ac19ec999a6",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2022",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2023_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2023_cons_rus.pdf",
+    "sha256": "8211674ef5fc6068149c8f8a3e2de475238aeecf2403a086f572d02a86b8ca4b",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2023",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2023_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2023_cons_rus.pdf",
+    "sha256": "8211674ef5fc6068149c8f8a3e2de475238aeecf2403a086f572d02a86b8ca4b",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2024",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2025_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2025_cons_rus.pdf",
+    "sha256": "7a3a06eba96a73a38da7c4667eb96fb864bc664b7385917d67b89893883066a8",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C07_2025",
+    "archive_path": "данные/компании_панель/15_Казахтелеком/Казахтелеком_2025_консолидированная_аудированная.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZTK/kztkf6_2025_cons_rus.pdf",
+    "sha256": "7a3a06eba96a73a38da7c4667eb96fb864bc664b7385917d67b89893883066a8",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C13_2016",
+    "archive_path": "tmp/full_audit_sources_20261016/kzcr2017.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZCR/kzcrf_2017_cons.pdf",
+    "sha256": "f97486c12dc34ed27b4cb5d3957766d5a024350c677e21ed10197daddeb26bb3",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C13_2017",
+    "archive_path": "tmp/full_audit_sources_20261016/kzcr2017.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZCR/kzcrf_2017_cons.pdf",
+    "sha256": "f97486c12dc34ed27b4cb5d3957766d5a024350c677e21ed10197daddeb26bb3",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C13_2018",
+    "archive_path": "tmp/full_audit_sources_20261016/kzcr2018.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZCR/kzcrp_2018_rus.pdf",
+    "sha256": "db4b7e5138aeba9191bce531e825e95045477ded312d9cecb23c77ce24bc99ad",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C13_2019",
+    "archive_path": "tmp/full_audit_sources_20261016/kzcr2020.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZCR/kzcrp_2020_rus.pdf",
+    "sha256": "7324ed9e07a974cc68f1ad044c97ac899d8fe4336d582ecc5dd6c498785aa550",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C13_2020",
+    "archive_path": "tmp/full_audit_sources_20261016/kzcr2020.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZCR/kzcrp_2020_rus.pdf",
+    "sha256": "7324ed9e07a974cc68f1ad044c97ac899d8fe4336d582ecc5dd6c498785aa550",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  },
+  {
+    "source_id": "C13_2021",
+    "archive_path": "tmp/full_audit_sources_20261016/kzcr2022.pdf",
+    "public_url": "https://kase.kz/files/emitters/KZCR/kzcrp_2022_rus.pdf",
+    "sha256": "835ead867ba5038716e68d7f78a3f049b751f9f45aaebe817c2356c71ad5c833",
+    "mapping_evidence": "Exact path in original download_registry.json or literal SOURCES mapping; local hash checked where provided."
+  }
+]

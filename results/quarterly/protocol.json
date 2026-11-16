@@ -1,0 +1,79 @@
+{
+  "status": "fixed_before_model_fitting",
+  "date": "2026-10-19",
+  "coverage": "3 companies, 2020Q1–2025Q4, 72 company-quarter rows",
+  "primary_target": "Non-annualised quarterly ROA = (profit YTD_t - profit YTD_previous same year) / assets at quarter end; Q1 uses its YTD. Total profit after tax, not comprehensive income.",
+  "primary_test": "2024Q1–2025Q4; 8 expanding quarterly folds, 3 companies each, 24 predictions per model. Training target periods from 2021Q1 through t-2.",
+  "availability": "Main uses financial and macro lags >=2 quarters, and train labels <=t-2. This assumed publication lag is NOT verified actual availability; no historical version/publication-date database. Retrospective only.",
+  "features": [
+    "ROA t-2,t-3,t-4",
+    "assets[t-2]/assets[t-3]-1",
+    "company ID (one-hot)",
+    "target calendar quarter (one-hot)"
+  ],
+  "macro_features": [
+    "USD/KZT quarter-end change q/q at t-2 (NBK)",
+    "quarter-average Brent change q/q at t-2 (EIA via FRED)"
+  ],
+  "excluded_features": "No revenue/equity/GDP/CPI in this minimal comparison. Revenue excluded because of the KEGOC 2021 continuing/discontinued scope break. Not the exact annual feature matrix.",
+  "models": {
+    "Seasonal naive": "ROA same quarter previous year (t-4)",
+    "GB MAE internal": "sklearn GB absolute_error, 150 trees, lr=.03, depth=2, min leaf=5",
+    "CatBoost MAE + macro": "CatBoost MAE, 200 iterations, lr=.03, depth=2, l2=5, plus the two macro features",
+    "Last available ROA": "Diagnostic baseline: last assumed available ROA (t-2)",
+    "CatBoost MAE internal (control)": "Ablation control: exactly the same CatBoost without macro"
+  },
+  "tuning": "No tuning/early stopping or selection on the test; fixed compact settings. Categories encoded inside train fold. Numeric imputer fit only on train.",
+  "sensitivities": {
+    "reported_quarter_lag2": "Use directly reported 3-month profit where available; Q4 remains FY minus 9M. Annual sums can differ because of statement revisions.",
+    "conditional_lag1": "Conditional sensitivity assumes prior quarter financial statements and labels already available, lags1,2,4. Not a genuine forecast at the start of the quarter."
+  },
+  "uncertainties": "Only 8 test quarters and 3 firms. Paired cluster bootstrap resamples whole test quarters; descriptive, not proof of significance. 2025 annual outcomes previously known; exploratory pilot.",
+  "annual_comparison": "Raw MAE is not comparable to annual MAE: target interval, firms, features, test years differ. Compare skill relative to each frequency baseline, not raw size.",
+  "quarter_adjustments": "YTD differencing forces annual reconciliation arithmetically. Kcell 2020Q3 and 2024Q2 disagree with the directly reported quarter; both targets are tested. Q4 can contain audit/revision adjustments. KZTO FY2024 uses original current-year statement, unlike revised comparative in annual panel.",
+  "seed": 20261019,
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "sklearn": "1.9.1",
+    "catboost": "1.2.10"
+  },
+  "annual_hashes_before": {
+    "changes.json": "ec9e66cc9b218af5105319b3e0a6860b191545e57449ae76d7408a7f1af418ff",
+    "companies_main.png": "575685f20707efef16f95cb4a7b12fef69dee2e1b1e5b22c1e748fe7f056cfec",
+    "companies_metadata.png": "e3b44888cb97e4a67deadd0d852d7b1a6d59a0dae044529cb55fff1454c137d4",
+    "company_financials.csv": "fa3ec5eaa7de46a6fc74c20ba8daa5872a27678ba8f8313f074a3c506b948b1d",
+    "company_view.csv": "a0cd3d75eded306b1dec6f13bbd5aaa63ffe8dee3096a13f81dba83f5383058f",
+    "data_dictionary.json": "9cfa9cb317628c8bb3fc30f3634744d60cc261eb09755a6519f056c8bc86882b",
+    "delivery_checks.csv": "47636cce46e9e1afc2a747f0863c57129cf563dd5fc6665776f78a920018093c",
+    "exploratory_2025.csv": "a20119961cab3ef8d1a738e793fed73eecd5c9420a13dc12ee105a2bae9d3980",
+    "folds.csv": "9c70d2accab80fa6d6c2da810c45d9420730586887c8551fc6bbc84a17c8cfb6",
+    "inner_cv_results.csv": "3a27002baf9c2cd7c4f0952b12310a06de8c669eb6b96bac340c0db63e73e7e3",
+    "macro_ablation.csv": "3e39c109b8caaeb9564bb24bd3dfc5f3514396466a4336045440bdfccffdba59",
+    "macro_by_year.csv": "4d0bced82fcd0a1a4b50b0db426dd5c94c86946bedc003a849bbeed3d754daeb",
+    "macro_main.png": "c6b24cb314a9956b4e391e8f9990eef2e669195a533675e3b51412db3d09f3a2",
+    "macro_sources.json": "fc35c345a962552a24f8c5be3863f855a1cdcef6e19d8891105838fe8f7088d2",
+    "macro_sources.png": "7fc3da7cc67ca12ac4af60ddc6b1b2773eaa6ad23ffc552f7089fa0e6f5dfc7e",
+    "macro_view.csv": "155298501c29c8530639d9ff9e9dfbb0771a2c3ff13b35665e25c41814fda3a7",
+    "metrics_by_company.csv": "52fcf2419e12776a6f57cd2c848ddb04a89f67351e4f66656852d12834f0e361",
+    "metrics_by_year.csv": "08d020c99f5dfa4ef81958b608f423ff581cbaff0bc8107fc2b126f04e5d7537",
+    "model_checks.csv": "5dc61c7109314c08774195fc08bc5883e5a3922189a49498079972fbe5c83c37",
+    "model_features.csv": "dc1fcb9ee31f0bc9bfd72eac24ab4d3e00c400edc0aa14c835df6b0b8f99e799",
+    "model_metrics.csv": "5dd721e34a181854652e5d3ffe235cbee3199d4fe790cdbde0f1c8e271989805",
+    "model_protocol.json": "66a9db9bd12de640b06805356f892415a24a953962ef9d6f1f69ed1048837230",
+    "paired_cluster_bootstrap.csv": "4f724d446040d60aaac316be2cc438e724d7a367876895130e7b4ed87dd83406",
+    "predictions.csv": "760f31ba56f711ac7380fc519230240d040caa754d41b0da90e38ddc32a1c5a7",
+    "preparation_summary.json": "0e304516fc0b77d31f78c3c5c7a1dfbb0e755486e2177e2afbdbf2996ddf004e",
+    "run_complete.json": "12e83ebb16317e0dca1a77bf45db8fa006b14323475bf5de0f6d5b0db978b6e3",
+    "selected_parameters.csv": "bfe4cc8e74b64f0b7faeb455bd387a313012f87dc2c2ff587d0c206082b3f35b",
+    "source_registry.json": "2aea2e2865c3fc24adfa56c6b31d2395e56e9b1d46b0551b9ef7db9e7259025e",
+    "Внешние_показатели.xlsx": "1c16f6b657b5c8eee2369e5291e9ae69440c3110c8bf9106a8377d343212e349",
+    "Внешние_показатели.xlsx.inspect.ndjson": "fbdd8ac00209cbd8ebe4e7efbf18fa60b2ffe9bf4d0efcb60b2eee9e3ae1f691",
+    "Данные_компаний.xlsx": "5cc833e10acd021e685233181f6756f3b3a9270b1ac630c2a6286dd1eebd7de3",
+    "Данные_компаний.xlsx.inspect.ndjson": "676d899be6c10defd7226b4b76be2b0c32442ad2baa5907bb3c3c426dacfe1b8",
+    "Результаты_очистки_и_моделирования.txt": "2e2da08217d3311c8723cbfdc84295557c4bb3fe3dbbe52702cfa227a1fa12b0"
+  },
+  "input_sha256": "a9c6a2794caa432c94c02530d4de6ec85a538935315ec555fdbad178367f659e",
+  "code_sha256": "59dd647efd9085542e56391d023bc59626909bed1cc5a880a117e4c729e78b09"
+}

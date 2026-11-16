@@ -1,0 +1,29 @@
+{
+  "world_bank": {
+    "gdp_growth": {
+      "indicator": "NY.GDP.MKTP.KD.ZG",
+      "lastupdated": "2026-07-13",
+      "cache_sha256": "adfab07fe30279263966658dd09a07493772364d15b3cd1bdc7574d7c3545eeb"
+    },
+    "inflation": {
+      "indicator": "FP.CPI.TOTL.ZG",
+      "lastupdated": "2026-07-13",
+      "cache_sha256": "e82c4db94911959963e065a1cd3be1e28244e1ad0094ca91b8e29efb08d421e9"
+    },
+    "fx_average": {
+      "indicator": "PA.NUS.FCRF",
+      "lastupdated": "2026-07-13",
+      "cache_sha256": "fdfec43d765c4f8a8c6f9f3f0b3c199b1d08ec4c35852b895b86d32c271f9f13"
+    }
+  },
+  "brent": {
+    "url": "https://fred.stlouisfed.org/series/ACOILBRENTEU",
+    "cache_sha256": "35f3341ab49891025d51e0859df9122ff40d02f5f9c85918f3e9d799658b1d40"
+  },
+  "urls": [
+    "https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=KZ",
+    "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KZ",
+    "https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=KZ"
+  ],
+  "limitations": "Revised retrospective vintage, not historical release-time data. Missing source values stay missing."
+}
